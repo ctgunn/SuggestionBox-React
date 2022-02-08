@@ -6,6 +6,7 @@
     "react-scripts": "^5.0.0"
   },
   "dependencies": {
+    "eslint": "^8.8.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
