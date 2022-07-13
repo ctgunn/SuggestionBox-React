@@ -1,5 +1,4 @@
 import React from "react";
-import Suggestion from './Suggestion';
 
 export default class Box extends React.Component {
     render() {
