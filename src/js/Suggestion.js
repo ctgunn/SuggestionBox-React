@@ -4,7 +4,10 @@ export default class Suggestion extends React.Component {
     render() {
         return (
             <div>
-                <span>This is suggestion number {this.props.number}</span>
+                <apan id={"suggestor"}>{this.props.name}</apan>
+                <span id={"suggestionDate"}>{this.props.date}</span>
+                <div>{this.props.title}</div>
+                <div id={"suggestionMessage"}>This is suggestion number {this.props.number}</div>
             </div>
         )
     }

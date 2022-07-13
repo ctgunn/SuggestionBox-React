@@ -8,9 +8,21 @@ export default class Box extends React.Component {
         return (
             <div>
                 {/*<span>You have no new suggestions.</span>*/}
-                <Suggestion number={1}/>
-                <Suggestion number={2}/>
-                <Suggestion number={3}/>
+                <Suggestion
+                    number={1}
+                    title={"Random"}
+                    name={"Anonymous"}
+                    date={"July 12th, 2022"}/>
+                <Suggestion
+                    number={2}
+                    title={"Superman is so cool!"}
+                    name={"Clark Kent"}
+                    date={"June 8th, 2022"}/>
+                <Suggestion
+                    number={3}
+                    title={"Batman is better than Superman!"}
+                    name={"Bruce Wayne"}
+                    date={"May 4th, 2022"}/>
             </div>
         )
     }
