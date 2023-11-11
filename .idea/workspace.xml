@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93f145a6-991d-4eb0-83fb-25465058f406" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/components/Suggestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/SuggestionBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Box.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/DropdownMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/DropdownMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/OptionsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/OptionsMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Suggestion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/SuggestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/DashboardPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +136,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js/components" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/css" />
       <recent name="$PROJECT_DIR$/src/js" />
@@ -206,7 +193,7 @@
       <workItem from="1699673234834" duration="28000" />
       <workItem from="1699673294182" duration="130000" />
       <workItem from="1699673666787" duration="710000" />
-      <workItem from="1699676639218" duration="1615000" />
+      <workItem from="1699676639218" duration="2730000" />
     </task>
     <servers />
   </component>
