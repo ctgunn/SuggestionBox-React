@@ -1,11 +1,14 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SuggestionBox from "../components/SuggestionBox";
+import {render} from "react-dom";
 
-const DashboardPage = () => {
-    <Header/>
-    <SuggestionBox/>
-    <Footer/>
+export default function DashboardPage() {
+    render(
+        <>
+            <Header/>
+            <SuggestionBox/>
+            <Footer/>
+        </>
+    );
 };
-
-export default DashboardPage;

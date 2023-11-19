@@ -4,7 +4,7 @@ import {Button} from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 import {render} from "react-dom";
 
-const SuggestionBox = () => {
+export default function SuggestionBox() {
     render(
         <div>
             {/*<span>You have no new suggestions.</span>*/}
@@ -26,5 +26,3 @@ const SuggestionBox = () => {
         </div>
     );
 };
-
-export default SuggestionBox;

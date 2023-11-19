@@ -1,5 +1,8 @@
-const Header = () => {
+import {render} from "react-dom";
 
+export default function Header() {
+    render(
+        <>
+        </>
+    );
 };
-
-export default Header;

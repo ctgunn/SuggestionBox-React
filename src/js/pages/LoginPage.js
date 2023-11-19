@@ -1,7 +1,8 @@
 import Login from "../components/Login";
+import {render} from "react-dom";
 
-const LoginPage = () => {
-    <Login/>
+export default function LoginPage() {
+    render(
+        <Login/>
+    );
 };
-
-export default LoginPage;

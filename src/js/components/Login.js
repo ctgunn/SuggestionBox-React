@@ -1,7 +1,7 @@
 import React from "react";
 import {render} from "react-dom";
 
-const Login = () => {
+export default function Login() {
     render (
         <div id={"login-container"}>
             <div id={"username"}>
@@ -15,5 +15,3 @@ const Login = () => {
         </div>
     );
 };
-
-export default Login;

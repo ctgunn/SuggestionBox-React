@@ -2,7 +2,7 @@ import React from "react";
 import {Button} from 'react-bootstrap/Button';
 import {render} from "react-dom";
 
-const SuggestionForm = () => {
+export default function SuggestionForm() {
     render (
         <div>
             <form>
@@ -12,5 +12,3 @@ const SuggestionForm = () => {
         </div>
     );
 };
-
-export default SuggestionForm;

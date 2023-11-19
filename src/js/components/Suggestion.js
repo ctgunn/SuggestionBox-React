@@ -1,7 +1,7 @@
 import React from "react";
 import {render} from "react-dom";
 
-const Suggestion = () => {
+export default function Suggestion() {
     render (
         <div>
             <apan id={"suggestor"}>{this.props.name}</apan>
@@ -11,5 +11,3 @@ const Suggestion = () => {
         </div>
     )
 };
-
-export default Suggestion;
