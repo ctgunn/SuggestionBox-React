@@ -9,20 +9,7 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/DropdownMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/DropdownMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/OptionsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/OptionsMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Suggestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Suggestion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/DashboardPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/middleware/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/middleware/logger.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +196,7 @@
       <workItem from="1699673234834" duration="28000" />
       <workItem from="1699673294182" duration="130000" />
       <workItem from="1699673666787" duration="710000" />
-      <workItem from="1699676639218" duration="9659000" />
+      <workItem from="1699676639218" duration="11163000" />
     </task>
     <servers />
   </component>
