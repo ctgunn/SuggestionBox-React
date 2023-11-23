@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 type SecondaryButtonProps = {
     onClick: MouseEventHandler,
     buttonText: string
-}
+};
 
 const SecondaryButton = ({onClick, buttonText}: SecondaryButtonProps) => {
     return (

@@ -1,8 +1,7 @@
 import React from "react";
-import {render} from "react-dom";
 
-export default function Login() {
-    render (
+const Login = () => {
+    return (
         <div id={"login-container"}>
             <div id={"username"}>
                 <label>Username</label>
@@ -15,3 +14,5 @@ export default function Login() {
         </div>
     );
 };
+
+export default Login;

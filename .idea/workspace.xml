@@ -6,10 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="93f145a6-991d-4eb0-83fb-25465058f406" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/buttons/primaryButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttons/primaryButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/buttons/secondaryButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttons/secondaryButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/DropdownMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/DropdownMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MainMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/OptionsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/OptionsMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Suggestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Suggestion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/buttons/primaryButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttons/primaryButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/buttons/secondaryButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttons/secondaryButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/DashboardPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/LoginPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,21 +132,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;JavaScript: code vision performance watcher&quot;,
-    &quot;Notification.DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance": "JavaScript: code vision performance watcher",
+    "Notification.DoNotAsk-JavaScript: Code Vision Performance": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/Users/ctgunn/WebstormProjects/suggestion_box-react/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/js/redux" />
@@ -196,7 +207,7 @@
       <workItem from="1699673234834" duration="28000" />
       <workItem from="1699673294182" duration="130000" />
       <workItem from="1699673666787" duration="710000" />
-      <workItem from="1699676639218" duration="13398000" />
+      <workItem from="1699676639218" duration="18242000" />
     </task>
     <servers />
   </component>

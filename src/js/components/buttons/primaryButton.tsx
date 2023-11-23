@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 type PrimaryButtonProps = {
     onClick: MouseEventHandler,
     buttonText: string
-}
+};
 
 const PrimaryButton = ({onClick, buttonText}: PrimaryButtonProps) => {
     return (

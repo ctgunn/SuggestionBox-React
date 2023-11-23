@@ -1,9 +1,7 @@
 import React from "react";
-import {Button} from 'react-bootstrap/Button';
-import {render} from "react-dom";
 
-export default function SuggestionForm() {
-    render (
+const SuggestionForm = () => {
+    return (
         <div>
             <form>
                 <input type={"text"} placeholder={"Enter a title..."}/>
@@ -12,3 +10,5 @@ export default function SuggestionForm() {
         </div>
     );
 };
+
+export default SuggestionForm;
