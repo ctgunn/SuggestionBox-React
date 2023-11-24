@@ -1,6 +1,7 @@
 import React from "react";
 import Suggestion from './Suggestion';
 import 'bootstrap/dist/css/bootstrap.css';
+import PrimaryButton from "./buttons/primaryButton";
 
 const suggestions: {number: number, title: string, message: string, name: string, date: string}[] = [
     {
@@ -27,19 +28,27 @@ const suggestions: {number: number, title: string, message: string, name: string
     }
 ];
 
+const addSuggestionClick = (e): void => {
+    e.preventDefault();
+};
+
 let emptySuggestions: React.JSX.Element = <div>
     <span>You have no new suggestions.</span>
 </div>;
 
 let suggestionsList: React.JSX.Element = <div>
     {suggestions.map(suggestion => {
-        return <Suggestion key={suggestion.number}
+        return <Suggestion
+            key={suggestion.number}
             name={suggestion.name}
             date={suggestion.date}
             title={suggestion.title}
             message={suggestion.message}
             number={suggestion.number}/>;
     })}
+    <PrimaryButton
+        buttonText={"Add Suggestion"}
+        onClick={addSuggestionClick}/>
 </div>;
 
 const SuggestionBox = (): React.JSX.Element => {
