@@ -6,20 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="93f145a6-991d-4eb0-83fb-25465058f406" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/DropdownMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/DropdownMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MainMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/MenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/OptionsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/OptionsMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Suggestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Suggestion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/buttons/primaryButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttons/primaryButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/buttons/secondaryButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttons/secondaryButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/DashboardPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/SuggestionBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/SuggestionBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/config/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/config/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/enhancers/monitorReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/enhancers/monitorReducers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/middleware/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/middleware/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/reducers/rootReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/reducers/suggestionFormReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/reducers/suggestionsReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,12 +153,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/App.js" working-dir="$PROJECT_DIR$/src/js">
+    <configuration name="App.tsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/App.tsx" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.tsx" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +202,7 @@
       <workItem from="1699673234834" duration="28000" />
       <workItem from="1699673294182" duration="130000" />
       <workItem from="1699673666787" duration="710000" />
-      <workItem from="1699676639218" duration="18242000" />
+      <workItem from="1699676639218" duration="20883000" />
     </task>
     <servers />
   </component>

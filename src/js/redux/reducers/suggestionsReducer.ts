@@ -1,11 +1,11 @@
-const initialState = [];
+const initialState: any[] = [];
 
-function nextSuggestionId(suggestions) {
+function nextSuggestionId(suggestions: any[]) {
     const maxId = suggestions.reduce((maxId, suggestion) => Math.max(suggestion.id, maxId), -1);
     return maxId + 1;
 }
 
-export default function suggestionsReducer(state = initialState, action) {
+const suggestionsReducer: any = (state: any[] = initialState, action: { type: any; payload: any; }) => {
     switch (action.type) {
         case 'suggestions/suggestionAdded': {
             // Can return just the new suggestions array - no extra object around it
@@ -57,4 +57,7 @@ export default function suggestionsReducer(state = initialState, action) {
         default:
             return state;
     }
-}
+};
+
+
+export default suggestionsReducer;

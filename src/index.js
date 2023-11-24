@@ -1,16 +1,17 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { Provider } from 'react-redux'
-import store from './js/redux/config/configureStore'
 import './index.css';
 import App from './js/App';
+import configureAppStore from "./js/redux/config/configureStore";
+import {createRoot} from "react-dom/client";
+
+const store = configureAppStore();
 
 const renderApp = () =>
-    render(
+    createRoot(document.getElementById('root')).render(
         <Provider store={store}>
             <App />
-        </Provider>,
-        document.getElementById('root')
+        </Provider>
     );
 
 if (process.env.NODE_ENV !== 'production' && module.hot) {

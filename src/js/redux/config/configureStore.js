@@ -13,7 +13,7 @@ export default function configureAppStore(preloadedState) {
     });
 
     if (process.env.NODE_ENV !== 'production' && module.hot) {
-        module.hot.accept('./reducers', () => store.replaceReducer(rootReducer));
+        module.hot.accept('../reducers/rootReducer', () => store.replaceReducer(rootReducer));
     }
 
     return store;

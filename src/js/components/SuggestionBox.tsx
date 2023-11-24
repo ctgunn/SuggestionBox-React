@@ -33,7 +33,7 @@ let emptySuggestions: React.JSX.Element = <div>
 
 let suggestionsList: React.JSX.Element = <div>
     {suggestions.map(suggestion => {
-        return <Suggestion
+        return <Suggestion key={suggestion.number}
             name={suggestion.name}
             date={suggestion.date}
             title={suggestion.title}
